@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warta Ekonomi & Berita — KADIN Surabaya</title>
+    <meta name="description" content="Pusat rujukan berita ekonomi, regulasi industri, logistik, dan pers rilis resmi terbaru dari Kamar Dagang dan Industri (KADIN) Kota Surabaya.">
+    
+    <!-- Menghubungkan ke core stylesheet terpadu proyek kita -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <a href="#main-content" class="sr-only">Lompat ke Konten Utama</a>
+
+    <!-- HEADER / NAVIGATION ARCHITECTURE -->
+    <header class="header-root" id="site-header">
+        <div class="container">
+            <div class="header-container">
+                <div class="brand-wrapper">
+                <a href="index.html" class="brand-anchor" aria-label="Beranda KADIN Surabaya">
+                    <img src="img/logo-kadin-jatim.png" alt="Logo KADIN" style="height: 45px; width: auto; display: block; object-fit: contain;" aria-hidden="true">
+                    <div class="brand-text">
+                        <div class="brand-title">KADIN SURABAYA</div>
+                        <div class="brand-subtitle">Chamber of Commerce</div>
+                    </div>
+                </a>
+            </div>
+                
+                <nav class="nav-wrapper" aria-label="Navigasi Utama">
+                    <ul class="nav-list">
+                        <li><a href="index.html" class="nav-item-link">Beranda</a></li>
+                        <li><a href="profil.html" class="nav-item-link">Profil Organisasi</a></li>
+                        <li><a href="layanan.html" class="nav-item-link">Layanan Strategis</a></li>
+                        <li><a href="index.html#agenda" class="nav-item-link">Agenda Kerja</a></li>
+                        <li><a href="berita-sektor.html" class="nav-item-link is-active" aria-current="page">Berita & Sektor</a></li>
+                        <li><a href="https://wa.me/+62XXXXXXXXXX?text=Hai%20Admin%20KADIN%20SURABAYA%2C%20Aku%20mau%20daftar%20jadi%20anggota.%20Tolong%20bantu%20ya%21" target="_blank" rel="noopener noreferrer" class="btn-premium primary">Registrasi Anggota</a></li>
+                    </ul>
+                </nav>
+
+                <!-- Hamburger Mobile Trigger Box -->
+                <div class="toggle-wrapper">
+                    <button class="menu-toggle" id="menu-toggle" aria-label="Buka Menu Navigasi" aria-expanded="false">
+                        <span class="hamburger-line"></span>
+                        <span class="hamburger-line"></span>
+                        <span class="hamburger-line"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- PANEL OVERLAY DRAWER MOBILE NAV -->
+    <div class="mobile-menu-overlay" id="mobile-menu">
+        <button class="mobile-menu-close" id="menu-close" aria-label="Tutup Menu Navigasi">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="18" y1="6" x2="6" y2="18"></line>
+                <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+        </button>
+        <div class="mobile-menu-container">
+            <ul class="mobile-nav-list">
+                <li><a href="index.html" class="mobile-nav-link">Beranda</a></li>
+                <li><a href="profil.html" class="mobile-nav-link">Profil Organisasi</a></li>
+                <li><a href="layanan.html" class="mobile-nav-link">Layanan Strategis</a></li>
+                <li><a href="index.html#agenda" class="mobile-nav-link">Agenda Kerja</a></li>
+                <li><a href="berita-sektor.html" class="mobile-nav-link">Berita & Sektor</a></li>
+                <li style="margin-top: 2.5rem;">
+                    <a href="https://wa.me/+62XXXXXXXXXX?text=Hai%20Admin%20KADIN%20SURABAYA%2C%20Aku%20mau%20daftar%20jadi%20anggota.%20Tolong%20bantu%20ya%21" target="_blank" rel="noopener noreferrer" class="btn-premium primary" style="display: flex; width: 100%; text-align: center; justify-content: center;">Registrasi Keanggotaan</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <main id="main-content">
+        
+        <!-- SECTION 1: NEWSROOM HERO (FEATURED HEADLINE SPLIT) -->
+        <section class="news-root" style="padding-top: 9rem; background-color: var(--white); padding-bottom: 5rem;">
+            <div class="container">
+                <div style="margin-bottom: 4rem;">
+                    <span class="section-kicker">KADIN Surabaya Newsroom</span>
+                    <h1 class="section-title">Warta Ekonomi & <br><span class="serif-italic">Perspektif Berita Regional</span></h1>
+                    <p class="section-desc">Dasbor navigasi informasi satu pintu untuk rilis pers korporasi, regulasi perdagangan terbaru, dan dinamika pasar Kota Surabaya.</p>
+                </div>
+
+                <!-- Headline Utama & Sidebar List Teroptimasi -->
+                <div class="news-layout-table">
+                    <div class="news-featured-cell">
+                        <a href="berita-single.html" class="article-featured-anchor" aria-label="Baca berita utama">
+                            <div class="article-featured-image-frame" style="height: 380px;">
+                                <!-- FOTO IMPOSED: Menggantikan gradasi placeholder lama -->
+                                <img src="img/berita-utama.jpg" alt="Kolaborasi Strategis Kadin Surabaya dengan BPBRIN Unair" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+                            </div>
+                            <div class="article-meta-row">
+                                <span class="article-tag" style="color: var(--navy-primary); font-weight: 800;">Wirausaha & Inkubasi</span>
+                                <time datetime="2026-06-20">20 Juni 2026</time>
+                            </div>
+                            <h2 class="article-featured-title" style="font-size: 2rem; margin-bottom: 1.25rem;">Pacu Gerak UMKM, Kadin Surabaya Sinergi dengan Inkubator Bisnis BPBRIN Unair</h2>
+                            <p class="article-featured-excerpt">
+                                Komitmen berkelanjutan dalam pengembangan UMKM naik kelas dikuatkan lewat kolaborasi strategis formulasi riset pasar, peningkatan tata kelola manajerial, hingga skema perluasan jaringan modal ventura nasional untuk penetrasi produk lokal yang lebih agresif.
+                            </p>
+                        </a>
+                    </div>
+                    
+                    <!-- REVISED: Sisi Sorotan Utama Sesuai Gambar image_c04d19.png + Tambahan Excerpt Pendek -->
+                    <div class="news-list-cell">
+                        <div class="news-list-container" style="border-left: 1px solid var(--slate-100); padding-left: 2.5rem;">
+                            <h3 class="footer-heading" style="margin-bottom: 2rem; letter-spacing: 0.12em; color: var(--navy-primary);">Sorotan Utama</h3>
+                            
+                            <!-- Item Berita 1 -->
+                            <article class="news-row-item" style="padding-bottom: 1.75rem; margin-bottom: 1.75rem;">
+                                <a href="berita-single.html">
+                                    <div class="article-meta-row" style="margin-bottom: 0.5rem;">
+                                        <span class="article-tag" style="font-size: 0.75rem; font-weight: 700; color: var(--gold-accent);">KEBIJAKAN FISKAL</span>
+                                        <time datetime="2026-06-18" style="font-size: 0.8rem; color: var(--slate-700);">18 Juni 2026</time>
+                                    </div>
+                                    <h4 class="news-row-title" style="font-size: 1.2rem; font-weight: 800; line-height: 1.35; color: var(--navy-primary);">Peta Jalan Harmonisasi Insentif Pajak Daerah Bagi Sektor Industri Manufaktur Guna Menjaga Resiliensi</h4>
+                                    <!-- BARU: Kalimat singkat isi berita -->
+                                    <p style="font-size: 0.875rem; color: var(--slate-700); line-height: 1.5; margin-top: 0.5rem;">
+                                        Formulasi kebijakan pemotongan retribusi strategis guna memicu stabilitas volume produksi pabrikan lokal menghadapi fluktuasi pasar global.
+                                    </p>
+                                </a>
+                            </article>
+
+                            <!-- Item Berita 2 -->
+                            <article class="news-row-item" style="padding-bottom: 1.75rem; margin-bottom: 1.75rem;">
+                                <a href="berita-single.html">
+                                    <div class="article-meta-row" style="margin-bottom: 0.5rem;">
+                                        <span class="article-tag" style="font-size: 0.75rem; font-weight: 700; color: var(--gold-accent);">LOGISTIK & DISTRIBUSI</span>
+                                        <time datetime="2026-06-14" style="font-size: 0.8rem; color: var(--slate-700);">14 Juni 2026</time>
+                                    </div>
+                                    <h4 class="news-row-title" style="font-size: 1.2rem; font-weight: 800; line-height: 1.35; color: var(--navy-primary);">Modernisasi Infrastruktur Pelabuhan Tanjung Perak Siap Pangkas Dwelling Time Komoditas Antar Pulau Hingga 18%</h4>
+                                    <!-- BARU: Kalimat singkat isi berita -->
+                                    <p style="font-size: 0.875rem; color: var(--slate-700); line-height: 1.5; margin-top: 0.5rem;">
+                                        Penerapan integrasi sistem operasional gate otomatis baru untuk mengikis waktu tunggu logistik kargo komoditas primer.
+                                    </p>
+                                </a>
+                            </article>
+
+                            <!-- Item Berita 3 -->
+                            <article class="news-row-item" style="border-bottom: none; padding-bottom: 0;">
+                                <a href="berita-single.html">
+                                    <div class="article-meta-row" style="margin-bottom: 0.5rem;">
+                                        <span class="article-tag" style="font-size: 0.75rem; font-weight: 700; color: var(--gold-accent);">ORGANISASI</span>
+                                        <time datetime="2026-05-17" style="font-size: 0.8rem; color: var(--slate-700);">17 Mei 2026</time>
+                                    </div>
+                                    <h4 class="news-row-title" style="font-size: 1.2rem; font-weight: 800; line-height: 1.35; color: var(--navy-primary);">155 Pengurus Kadin Surabaya 2024–2029 Resmi Dilantik di Taman Surya</h4>
+                                    <!-- BARU: Kalimat singkat isi berita -->
+                                    <p style="font-size: 0.875rem; color: var(--slate-700); line-height: 1.5; margin-top: 0.5rem;">
+                                        Konsolidasi akbar yang mempertemukan ratusan merchant lokal dengan agregator ekspor nasional untuk pembukaan slot modal kerja alternatif.
+                                    </p>
+                                </a>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 2: GRID DAFTAR BERITA DENGAN FOTO -->
+        <section class="profile-kepemimpinan-root" id="daftar-berita-arsip" style="background-color: var(--slate-50); border-top: 1px solid var(--slate-100); padding: 6rem 0;">
+            <div class="container">
+                <div style="margin-bottom: 3.5rem;">
+                    <span class="section-kicker">Warta Terkini</span>
+                    <h2 class="section-title">Arsip & Informasi <span class="serif-italic">Ekonomi Terintegrasi</span></h2>
+                </div>
+
+                <div class="wku-matrix-grid" style="grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 2.5rem;">
+                    
+                    <!-- KARTU BERITA 1 -->
+                    <article class="wku-profile-card" style="flex-direction: column; align-items: stretch; padding: 0; overflow: hidden; background-color: var(--white); border: 1px solid rgba(15, 23, 42, 0.03); box-shadow: 0 4px 15px rgba(15, 23, 42, 0.01);">
+                        <div style="width: 100%; height: 220px; position: relative; overflow: hidden;">
+                            <!-- FOTO IMPOSED: Menggantikan latar belakang gradasi linear-gradient lama -->
+                            <img src="img/berita-vokasi.jpg" alt="Sinkronisasi Kurikulum Vokasi Sektor Digital Jawa Timur" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+                        </div>
+                        <div style="padding: 2rem; display: flex; flex-direction: column; gap: 0.85rem; flex-grow: 1;">
+                            <div style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
+                                <span style="font-size: 0.7rem; font-weight: 800; color: var(--gold-accent); text-transform: uppercase; letter-spacing: 0.15em;">KEBIJAKAN FISKAL</span>
+                                <time style="font-size: 0.8rem; color: var(--slate-700); font-weight: 500;">10 Juni 2026</time>
+                            </div>
+                            <h3 class="wku-name" style="font-size: 1.25rem; line-height: 1.4; font-weight: 800; margin-top: 0.25rem;">
+                                <a href="berita-single.html" style="color: var(--navy-primary); transition: color var(--transition-fast);">Sinkronisasi Kurikulum Vokasi Sektor Digital Jawa Timur Guna Sambut Regulasi Baru</a>
+                            </h3>
+                            <p style="font-size: 0.9rem; color: var(--slate-700); line-height: 1.6; margin-bottom: 1.5rem;">
+                                Langkah taktis KADIN Surabaya menyelaraskan visi produktivitas tenaga kerja lokal dengan kebutuhan rill pelaku startup digital regional...
+                            </p>
+                            <div style="margin-top: auto; padding-top: 1.25rem; border-top: 1px solid var(--slate-100); display: flex; justify-content: space-between; align-items: center; font-size: 0.8rem; color: var(--slate-700); font-weight: 500;">
+                                <span>Oleh: Redaksi Kadin</span>
+                                <a href="berita-single.html" style="color: var(--navy-primary); font-weight: 700; display: inline-flex; align-items: center; gap: 0.25rem; transition: color var(--transition-fast);">Baca Artikel &rarr;</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- KARTU BERITA 2 -->
+                    <article class="wku-profile-card" style="flex-direction: column; align-items: stretch; padding: 0; overflow: hidden; background-color: var(--white); border: 1px solid rgba(15, 23, 42, 0.03); box-shadow: 0 4px 15px rgba(15, 23, 42, 0.01);">
+                        <div style="width: 100%; height: 220px; position: relative; overflow: hidden;">
+                            <!-- FOTO IMPOSED: Menggantikan latar belakang gradasi linear-gradient lama -->
+                            <img src="img/berita-blk.jpg" alt="Peninjauan Kelayakan Balai Latihan Kerja Mandiri" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+                        </div>
+                        <div style="padding: 2rem; display: flex; flex-direction: column; gap: 0.85rem; flex-grow: 1;">
+                            <div style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
+                                <span style="font-size: 0.7rem; font-weight: 800; color: var(--gold-accent); text-transform: uppercase; letter-spacing: 0.15em;">UMKM & SERTIFIKASI</span>
+                                <time style="font-size: 0.8rem; color: var(--slate-700); font-weight: 500;">28 Mei 2026</time>
+                            </div>
+                            <h3 class="wku-name" style="font-size: 1.25rem; line-height: 1.4; font-weight: 800; margin-top: 0.25rem;">
+                                <a href="berita-single.html" style="color: var(--navy-primary); transition: color var(--transition-fast);">Peninjauan Kelayakan Balai Latihan Kerja Mandiri pada Sektor Manufaktur Sidoarjo</a>
+                            </h3>
+                            <p style="font-size: 0.9rem; color: var(--slate-700); line-height: 1.6; margin-bottom: 1.5rem;">
+                                Standardisasi uji kompetensi berkala guna mencetak operator industri alat berat yang memenuhi baku mutu pasar ekspor internasional...
+                            </p>
+                            <div style="margin-top: auto; padding-top: 1.25rem; border-top: 1px solid var(--slate-100); display: flex; justify-content: space-between; align-items: center; font-size: 0.8rem; color: var(--slate-700); font-weight: 500;">
+                                <span>Oleh: Tim Advokasi</span>
+                                <a href="berita-single.html" style="color: var(--navy-primary); font-weight: 700; display: inline-flex; align-items: center; gap: 0.25rem; transition: color var(--transition-fast);">Baca Artikel &rarr;</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- KARTU BERITA 3 -->
+                    <article class="wku-profile-card" style="flex-direction: column; align-items: stretch; padding: 0; overflow: hidden; background-color: var(--white); border: 1px solid rgba(15, 23, 42, 0.03); box-shadow: 0 4px 15px rgba(15, 23, 42, 0.01);">
+                        <div style="width: 100%; height: 220px; position: relative; overflow: hidden;">
+                            <!-- FOTO IMPOSED: Menggantikan latar belakang gradasi linear-gradient lama -->
+                            <img src="img/berita-tax.jpg" alt="Akselerasi Program Pajak Super Tax Deduction 200%" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+                        </div>
+                        <div style="padding: 2rem; display: flex; flex-direction: column; gap: 0.85rem; flex-grow: 1;">
+                            <div style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
+                                <span style="font-size: 0.7rem; font-weight: 800; color: var(--gold-accent); text-transform: uppercase; letter-spacing: 0.15em;">INSENTIF INDUSTRI</span>
+                                <time style="font-size: 0.8rem; color: var(--slate-700); font-weight: 500;">15 Mei 2026</time>
+                            </div>
+                            <h3 class="wku-name" style="font-size: 1.25rem; line-height: 1.4; font-weight: 800; margin-top: 0.25rem;">
+                                <a href="berita-single.html" style="color: var(--navy-primary); transition: color var(--transition-fast);">Akselerasi Program Pajak Super Tax Deduction 200% Klaster Industri Logam</a>
+                            </h3>
+                            <p style="font-size: 0.9rem; color: var(--slate-700); line-height: 1.6; margin-bottom: 1.5rem;">
+                                Sosialisasi pemangkasan beban pajak korporasi bagi perusahaan manufaktur Surabaya yang aktif menyelenggarakan program magang vokasi...
+                            </p>
+                            <div style="margin-top: auto; padding-top: 1.25rem; border-top: 1px solid var(--slate-100); display: flex; justify-content: space-between; align-items: center; font-size: 0.8rem; color: var(--slate-700); font-weight: 500;">
+                                <span>Oleh: Humas Kadin</span>
+                                <a href="berita-single.html" style="color: var(--navy-primary); font-weight: 700; display: inline-flex; align-items: center; gap: 0.25rem; transition: color var(--transition-fast);">Baca Artikel &rarr;</a>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+
+                <!-- Pagination Button -->
+                <div style="margin-top: 4rem; text-align: center;">
+                    <a href="#" class="btn-premium secondary" style="background: var(--white); padding: 0.85rem 2.5rem;">Muat Berita Lebih Banyak</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- HIGH-END INTEGRATED CTA PLATFORM -->
+        <section class="cta-root">
+            <div class="container">
+                <div class="cta-panel">
+                    <div class="cta-panel-layout">
+                        <div class="cta-text-cell">
+                            <h2 class="cta-title">Punya Informasi Rilis Pers Usaha <br><span class="serif-premium">yang Ingin Diterbitkan?</span></h2>
+                            <p class="cta-desc">Anggota resmi KADIN Surabaya mendapatkan fasilitas publikasi artikel promosi korporasi, rilis produk baru, dan pengumuman aksi korporasi strategis secara berkala di kanal Newsroom kami.</p>
+                        </div>
+                        <div class="cta-action-cell">
+                            <a href="https://wa.me/+62XXXXXXXXXX?text=Hai%20Admin%20KADIN%20SURABAYA%2C%20Aku%20mau%20minta%20KADIN%20SURABAYA%20buat%20bantu%20rilis%20berita%20dari%20kami.%20Boleh%20ga%20ya%3F" target="_blank" rel="noopener noreferrer" class="btn-premium primary" style="background-color: var(--gold-accent); border-color: var(--gold-accent);">Kirim Draft Rilis Pers</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- PREMIUM STRUCTURED FOOTER -->
+    <footer class="footer-root">
+        <div class="container">
+            
+            <div class="footer-grid-table">
+                
+                <div class="footer-column brand-col">
+                    <div class="footer-logo-wrap">
+                        <div class="brand-anchor">
+                            <img src="img/logo-kadin-jatim.png" alt="Logo KADIN" style="height: 45px; width: auto; display: block; object-fit: contain;" aria-hidden="true">
+                            <div class="brand-text">
+                                <div class="brand-title" style="color: var(--navy-primary);">KADIN SURABAYA</div>
+                                <div class="brand-subtitle">Chamber of Commerce</div>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="footer-brand-desc">
+                        Organisasi resmi bagi para pengusaha dan pelaku industri di Kota Surabaya yang berfungsi sebagai jembatan strategis antara dunia usaha dan pemerintah.
+                    </p>
+                </div>
+
+                <div class="footer-column links-col">
+                    <h4 class="footer-heading">Navigasi</h4>
+                    <ul>
+                        <li class="footer-link-item"><a href="profil.html" class="footer-link">Profil Organisasi</a></li>
+                        <li class="footer-link-item"><a href="layanan.html" class="footer-link">Layanan Strategis</a></li>
+                        <li class="footer-link-item"><a href="index.html#agenda" class="footer-link">Agenda Kerja</a></li>
+                        <li class="footer-link-item"><a href="berita-sektor.html" class="footer-link">Berita & Sektor</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column links-col">
+                    <h4 class="footer-heading">Layanan Strategis</h4>
+                    <ul>
+                        <li class="footer-link-item"><a href="layanan.html#advokasi" class="footer-link">Advokasi Regulasi & Kebijakan</a></li>
+                        <li class="footer-link-item"><a href="layanan.html#digitalisasi" class="footer-link">Akselerasi Digital</a></li>
+                        <li class="footer-link-item"><a href="layanan.html#kemitraan" class="footer-link">Kemitraan Dagang</a></li>
+                        <li class="footer-link-item"><a href="layanan.html#investasi" class="footer-link">Informasi Investasi Daerah</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column links-col">
+                    <h4 class="footer-heading">Sekretariat</h4>
+                    <p style="line-height: 1.6; margin-bottom: 0.5rem; font-weight: 600; color: var(--navy-primary);">Sekretariat KADIN Surabaya</p>
+                    <p style="line-height: 1.5; color: var(--slate-700); margin-bottom: 0.85rem;">
+                        Jl. Ngagel Jaya Selatan<br>
+                        Ruko RMI C-25, Surabaya<br>
+                        Jawa Timur
+                    </p>
+                    
+                    <div style="display: flex; flex-direction: column; gap: 0.5rem; color: var(--slate-700); font-size: 0.9rem;">
+                        <div style="display: flex; align-items: center; gap: 0.5rem;">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--gold-accent)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0;" aria-hidden="true">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
+                            <a href="mailto:kadinsurabaya@telkom.net" style="color: inherit; transition: color var(--transition-fast);">kadinsurabaya@telkom.net</a>
+                        </div>
+                        
+                        <div style="display: flex; align-items: center; gap: 0.5rem;">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--gold-accent)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0;" aria-hidden="true">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                            </svg>
+                            <a href="tel:+62315043733" style="color: inherit; transition: color var(--transition-fast);">+6231 5043 733</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div> 
+            
+            <!-- REVISED: FOOTER BOTTOM BAR WITH LEGAL LINKS & VEKTOR ICONS -->
+            <div class="footer-bottom-bar">
+                <div>
+                    &copy; 2026 KADIN Kota Surabaya. Seluruh Hak Cipta Dilindungi.
+                </div>
+                <!-- Flexbox wrapper untuk menyatukan menu legalitas & ikon sosmed -->
+                <div style="display: flex; align-items: center; gap: 2rem; flex-wrap: wrap;">
+                    <!-- Menu Kebijakan Strategis Baru -->
+                    <div style="display: flex; gap: 1.5rem;">
+                        <a href="kebijakan-privasi.html" class="footer-link" style="font-size: 0.8rem;">Kebijakan Privasi</a>
+                        <a href="syarat-ketentuan.html" class="footer-link" style="font-size: 0.8rem;">Syarat dan Ketentuan</a>
+                    </div>
+                    <!-- Jaringan Sosmed Menggunakan Icon Vektor Premium -->
+                    <div class="social-links-container" style="display: flex; gap: 1.25rem; align-items: center;">
+                        <a href="https://instagram.com/kadinjatim/" target="_blank" rel="noopener noreferrer" class="footer-link" aria-label="Instagram KADIN Surabaya" style="display: flex; align-items: center;">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="transition: transform var(--transition-fast);"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                        </a>
+                        <a href="https://www.linkedin.com/company/kadin-jawa-timur" target="_blank" rel="noopener noreferrer" class="footer-link" aria-label="LinkedIn KADIN Surabaya" style="display: flex; align-items: center;">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="transition: transform var(--transition-fast);"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- INTERACTIVE SCRIPT SYSTEM -->
+    <script>
+        (function() {
+            'use strict';
+            
+            // Header opacity scroll controller
+            const header = document.getElementById('site-header');
+            if (header) {
+                window.addEventListener('scroll', function() {
+                    if (window.scrollY > 50) {
+                        header.classList.add('is-scrolled');
+                    } else {
+                        header.classList.remove('is-scrolled');
+                    }
+                }, { passive: true });
+            }
+
+            // Mobile menu interaction drawer controller
+            const toggleBtn = document.getElementById('menu-toggle');
+            const closeBtn = document.getElementById('menu-close');
+            const mobileLinks = document.querySelectorAll('.mobile-nav-link');
+            
+            if (toggleBtn) {
+                toggleBtn.addEventListener('click', function() {
+                    const isOpen = document.body.classList.toggle('mobile-menu-open');
+                    toggleBtn.setAttribute('aria-expanded', isOpen);
+                });
+            }
+
+            if (closeBtn) {
+                closeBtn.addEventListener('click', function() {
+                    document.body.classList.remove('mobile-menu-open');
+                    if (toggleBtn) toggleBtn.setAttribute('aria-expanded', 'false');
+                });
+            }
+
+            mobileLinks.forEach(link => {
+                link.addEventListener('click', () => {
+                    document.body.classList.remove('mobile-menu-open');
+                    if (toggleBtn) toggleBtn.setAttribute('aria-expanded', 'false');
+                });
+            });
+        })();
+    </script>
+</body>
+</html>
